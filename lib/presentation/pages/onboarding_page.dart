@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_2/presentation/pages/ship_list_screen.dart';
 
 class OnboardingPage extends StatelessWidget {
-  const OnboardingPage({Key? key}) : super(key: key);
+  const OnboardingPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -10,7 +11,7 @@ class OnboardingPage extends StatelessWidget {
       body: Column(
         children: [
           const SizedBox(
-            height: 100,
+            height: 120,
           ),
           Expanded(
             flex: 1,
@@ -51,9 +52,10 @@ class OnboardingPage extends StatelessWidget {
                   height: 54,
                   child: ElevatedButton(
                       onPressed: () {
-                        // Navigator.of(context).pushAndRemoveUntil(
-                        //     MaterialPageRoute(builder: (context) => CarListScreen())
-                        //     , (route) => false);
+                        Navigator.of(context).pushAndRemoveUntil(
+                            MaterialPageRoute(
+                                builder: (context) => ShipListScreen()),
+                            (route) => false);
                       },
                       style: ElevatedButton.styleFrom(
                           foregroundColor: Colors.black,
