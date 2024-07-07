@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_2/data/models/ship.dart';
+import 'package:flutter_application_2/presentation/pages/map_detail_page.dart';
+import 'package:flutter_application_2/presentation/widgets/more_card.dart';
 import 'package:flutter_application_2/presentation/widgets/ship_card.dart';
 
 class ShipDetailsPage extends StatefulWidget {
@@ -100,10 +102,11 @@ class _ShipDetailsPageState extends State<ShipDetailsPage>
                 Expanded(
                   child: GestureDetector(
                     onTap: () {
-                      // Navigator.push(
-                      //     context,
-                      //     MaterialPageRoute(builder: (context) => MapsDetailsPage(car: widget.car))
-                      // );
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) =>
+                                  MapsDetailsPage(ship: widget.ship)));
                     },
                     child: Container(
                       height: 170,
@@ -134,15 +137,34 @@ class _ShipDetailsPageState extends State<ShipDetailsPage>
           ),
           Container(
             padding: const EdgeInsets.all(20),
-            child: const Column(
-                // children: [
-                //   MoreCard(car: Car(model: widget.car.model+"-1", distance: widget.car.distance+100, fuelCapacity: widget.car.fuelCapacity+100, pricePerHour: widget.car.pricePerHour+10)),
-                //   SizedBox(height: 5,),
-                //   MoreCard(car: Car(model: widget.car.model+"-2", distance: widget.car.distance+200, fuelCapacity: widget.car.fuelCapacity+200, pricePerHour: widget.car.pricePerHour+20)),
-                //   SizedBox(height: 5,),
-                //   MoreCard(car: Car(model: widget.car.model+"-3", distance: widget.car.distance+300, fuelCapacity: widget.car.fuelCapacity+300, pricePerHour: widget.car.pricePerHour+30)),
-                // ],
+            child: Column(
+              children: [
+                MoreCard(
+                    ship: Ship(
+                        model: widget.ship.model + "-1",
+                        distance: widget.ship.distance + 100,
+                        fuelCapacity: widget.ship.fuelCapacity + 100,
+                        pricePerHour: widget.ship.pricePerHour + 10)),
+                SizedBox(
+                  height: 5,
                 ),
+                MoreCard(
+                    ship: Ship(
+                        model: widget.ship.model + "-2",
+                        distance: widget.ship.distance + 200,
+                        fuelCapacity: widget.ship.fuelCapacity + 200,
+                        pricePerHour: widget.ship.pricePerHour + 20)),
+                SizedBox(
+                  height: 5,
+                ),
+                MoreCard(
+                    ship: Ship(
+                        model: widget.ship.model + "-3",
+                        distance: widget.ship.distance + 300,
+                        fuelCapacity: widget.ship.fuelCapacity + 300,
+                        pricePerHour: widget.ship.pricePerHour + 30)),
+              ],
+            ),
           )
         ],
       ),
