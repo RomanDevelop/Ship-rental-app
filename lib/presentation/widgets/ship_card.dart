@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_2/data/models/ship.dart';
+import 'package:flutter_application_2/presentation/pages/ship_datails_page.dart';
 
 class ShipCard extends StatelessWidget {
   final Ship ship;
@@ -10,10 +11,12 @@ class ShipCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        // Navigator.push(
-        //     context,
-        //     MaterialPageRoute(builder: (context) => CardDetailsPage(car: car,))
-        // );
+        Navigator.push(
+            context,
+            MaterialPageRoute(
+                builder: (context) => ShipDetailsPage(
+                      ship: ship,
+                    )));
       },
       child: Container(
         margin: const EdgeInsets.symmetric(vertical: 10, horizontal: 20),
