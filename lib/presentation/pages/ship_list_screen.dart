@@ -8,17 +8,17 @@ class ShipListScreen extends StatelessWidget {
         model: 'Eemslift Nelli',
         distance: 870,
         fuelCapacity: 15,
-        pricePerHour: 45),
+        pricePerHour: 450),
     Ship(
         model: 'Eemslift Helen',
         distance: 870,
         fuelCapacity: 15,
-        pricePerHour: 45),
+        pricePerHour: 450),
     Ship(
         model: 'Eemslift Hendrik',
         distance: 870,
         fuelCapacity: 15,
-        pricePerHour: 45),
+        pricePerHour: 450),
   ];
 
   @override

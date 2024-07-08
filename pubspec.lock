@@ -81,6 +81,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.8"
+  dart_earcut:
+    dependency: transitive
+    description:
+      name: dart_earcut
+      sha256: "41b493147e30a051efb2da1e3acb7f38fe0db60afba24ac1ea5684cee272721e"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.0"
   fake_async:
     dependency: transitive
     description:
@@ -130,10 +138,10 @@ packages:
     dependency: "direct main"
     description:
       name: flutter_map
-      sha256: "09010e452bcd8c57ade1b936b79643c4fd599f93b00d1696630f0b919b6f374a"
+      sha256: "2ecb34619a4be19df6f40c2f8dce1591675b4eff7a6857bd8f533706977385da"
       url: "https://pub.dev"
     source: hosted
-    version: "2.2.0"
+    version: "7.0.2"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -148,10 +156,10 @@ packages:
     dependency: transitive
     description:
       name: http
-      sha256: "5895291c13fa8a3bd82e76d5627f69e0d85ca6a30dcac95c4ea19a5d555879c2"
+      sha256: "761a297c042deedc1ffbb156d6e2af13886bb305c2a343a4d972504cd67dd938"
       url: "https://pub.dev"
     source: hosted
-    version: "0.13.6"
+    version: "1.2.1"
   http_parser:
     dependency: transitive
     description:
@@ -172,10 +180,10 @@ packages:
     dependency: "direct main"
     description:
       name: latlong2
-      sha256: "08ef7282ba9f76e8495e49e2dc4d653015ac929dce5f92b375a415d30b407ea0"
+      sha256: "98227922caf49e6056f91b6c56945ea1c7b166f28ffcd5fb8e72fc0b453cc8fe"
       url: "https://pub.dev"
     source: hosted
-    version: "0.8.2"
+    version: "0.9.1"
   leak_tracker:
     dependency: transitive
     description:
@@ -216,6 +224,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.1"
+  logger:
+    dependency: transitive
+    description:
+      name: logger
+      sha256: af05cc8714f356fd1f3888fb6741cbe9fbe25cdb6eedbab80e1a6db21047d4a4
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.3.0"
   matcher:
     dependency: transitive
     description:
@@ -272,14 +288,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.1"
-  positioned_tap_detector_2:
-    dependency: transitive
-    description:
-      name: positioned_tap_detector_2
-      sha256: "52e06863ad3e1f82b058fd05054fc8c9caeeb3b47d5cea7a24bd9320746059c1"
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.0.4"
   proj4dart:
     dependency: transitive
     description:
@@ -341,14 +349,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.6.1"
-  tuple:
-    dependency: transitive
-    description:
-      name: tuple
-      sha256: a97ce2013f240b2f3807bcbaf218765b6f301c3eff91092bcfa23a039e7dd151
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.0.2"
   typed_data:
     dependency: transitive
     description:

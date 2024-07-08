@@ -36,7 +36,7 @@ class MoreCard extends StatelessWidget {
               Row(
                 children: [
                   const Icon(
-                    Icons.directions_car,
+                    Icons.directions_boat,
                     color: Colors.white,
                     size: 16,
                   ),
