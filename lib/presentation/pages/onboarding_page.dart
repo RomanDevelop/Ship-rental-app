@@ -11,7 +11,7 @@ class OnboardingPage extends StatelessWidget {
       body: Column(
         children: [
           const SizedBox(
-            height: 120,
+            height: 180,
           ),
           Expanded(
             flex: 1,
