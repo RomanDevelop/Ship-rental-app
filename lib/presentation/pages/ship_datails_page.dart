@@ -43,10 +43,7 @@ class _ShipDetailsPageState extends State<ShipDetailsPage>
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [Icon(Icons.info_outline), Text(' Information')],
-        ),
+        title: const Text(' Ship Information'),
       ),
       body: Column(
         children: [
