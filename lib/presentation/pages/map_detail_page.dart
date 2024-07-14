@@ -86,7 +86,7 @@ Widget shipDetailsCard({required Ship ship}) {
                   ),
                   const SizedBox(width: 5),
                   Text(
-                    '> ${ship.distance} km',
+                    '> ${ship.distance} Mt/Day',
                     style: const TextStyle(color: Colors.white, fontSize: 14),
                   ),
                   const SizedBox(width: 10),
@@ -137,7 +137,7 @@ Widget shipDetailsCard({required Ship ship}) {
                         backgroundColor: Colors.black,
                       ),
                       child: const Text(
-                        'Book Now',
+                        'Request Quote',
                         style: TextStyle(color: Colors.white),
                       ),
                     ),
@@ -161,8 +161,8 @@ Widget featureIcons() {
   return Row(
     mainAxisAlignment: MainAxisAlignment.spaceBetween,
     children: [
-      featureIcon(Icons.local_gas_station, 'Diesel', 'Common Rail'),
-      featureIcon(Icons.speed, 'Acceleration', '0 - 100km/s'),
+      featureIcon(Icons.local_gas_station, 'VLSFO', 'Sulphur 0.5%'),
+      featureIcon(Icons.speed, 'Distance', 'apr. 350 Mls'),
       featureIcon(Icons.ac_unit, 'Cold', 'Temp Control'),
     ],
   );

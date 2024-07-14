@@ -48,19 +48,19 @@ class ShipCard extends StatelessWidget {
                     Row(
                       children: [
                         Image.asset('assets/gps.png'),
-                        Text(' ${ship.distance.toStringAsFixed(0)}km')
+                        Text(' ${ship.distance.toStringAsFixed(0)}Mt/Day')
                       ],
                     ),
                     Row(
                       children: [
                         Image.asset('assets/pump.png'),
-                        Text(' ${ship.fuelCapacity.toStringAsFixed(0)}L')
+                        Text(' ${ship.fuelCapacity.toStringAsFixed(0)}Mt')
                       ],
                     ),
                   ],
                 ),
                 Text(
-                  '\$${ship.pricePerHour.toStringAsFixed(2)}/h',
+                  '\$${ship.pricePerHour.toStringAsFixed(2)}/Day',
                   style: const TextStyle(fontSize: 16),
                 )
               ],
