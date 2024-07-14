@@ -1,2 +1,4 @@
 # Ship-rental-app
-![onboarding_enhanced](https://github.com/RomanDevelop/Ship-rental-app/assets/129858140/3fea6ff4-ffda-40f2-9019-35b4edf06094)
+
+
+<img width="425" alt="Снимок экрана 2024-07-14 в 04 04 40" src="https://github.com/user-attachments/assets/90bffb56-7c0d-464f-9594-3195c37603ef">
